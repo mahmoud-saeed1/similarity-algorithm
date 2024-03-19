@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="similarty algorithm to find how two strings are similar"
+    />
+    <link rel="icon" type="image/x-icon" href="./favicon.svg" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Similarity Measurement App</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Similarity Measurement App</h1>
+
+      <form>
+        <div class="input-group">
+          <label for="string1">Enter First String</label>
+          <input
+            type="text"
+            name="string1"
+            id="string1"
+            placeholder="Enter your first string here"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="string2">Enter Second String</label>
+          <input
+            type="text"
+            name="string2"
+            id="string2"
+            placeholder="Enter your second string here"
+            required
+          />
+        </div>
+        <button id="findSimilary">Find Similarity</button>
+      </form>
+
+      <p id="similarity-result"></p>
+    </main>
+
+    <script src="./dist/index.js" defer></script>
+  </body>
+</html>
