@@ -1,3 +1,4 @@
+/*~~~~~~~~$ main selectors $~~~~~~~~*/
 const similarityForm = document.querySelector("form");
 const input1 = document.getElementById("string1") as HTMLInputElement;
 const input2 = document.getElementById("string2") as HTMLInputElement;
